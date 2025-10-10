@@ -4,7 +4,6 @@ class binarySearchApp:
         self.values = []
     
     def createList(self, requiredElements):
-
         for i in range(requiredElements):
             val = int(input("Enter the value: "))
             self.values.append(val)
