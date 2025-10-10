@@ -9,5 +9,4 @@ class ReverseString:
 revStr = ReverseString()
 print("Reversed String {}".format(revStr.stringReversal("rajan")))
 print(f"Reversed String {revStr.stringReversal("rajan")}")
-print("Reversed String {}".format(revStr.stringReversal("rajan")))
 print("Reversed String", revStr.stringReversal("rajan"))
