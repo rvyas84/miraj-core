@@ -12,5 +12,4 @@ cal = calculatePower()
 print(cal.calPower(2,3))
 
 # Quick Way To Calculate ApowerB
-
 print(2**3)
