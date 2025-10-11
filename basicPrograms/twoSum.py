@@ -22,7 +22,7 @@ class TwoSum:
                 
                 result[values[i]] = i
 
-            return [i, result.get(complement)]
+            return ["No Value", "No Value"]
 
 fn = TwoSum()
-print(fn.twoSum([1,7,3,4,5,6,7,8,9,10], 21))
+print(fn.twoSum([1,7,3,4,5,6,7,8,9,10], 12))
