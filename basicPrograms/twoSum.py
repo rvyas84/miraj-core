@@ -17,11 +17,12 @@ class TwoSum:
                 complement = int(target - values[i])
 
                 if complement in result:
+                    print(result)
                     return [i, result.get(complement)]
                 
                 result[values[i]] = i
-            
+
             return [i, result.get(complement)]
 
 fn = TwoSum()
-print(fn.twoSum([1,7,3,4,5,6,7,8,9,10], 15))
+print(fn.twoSum([1,7,3,4,5,6,7,8,9,10], 21))
