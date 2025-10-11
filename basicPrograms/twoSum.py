@@ -1,0 +1,27 @@
+class TwoSum:
+
+    def __init__(self):
+        pass
+    
+    def twoSum(self, values, target):
+
+        complement = 0
+        result = {}
+
+        if len(values) <= 0:
+            print("List is empty")
+        elif len(values) == 1:
+            print("List has only 1 value")
+        else:
+            for i in range(len(values)):
+                complement = int(target - values[i])
+
+                if complement in result:
+                    return [i, result.get(complement)]
+                
+                result[values[i]] = i
+            
+            return [i, result.get(complement)]
+
+fn = TwoSum()
+print(fn.twoSum([1,7,3,4,5,6,7,8,9,10], 15))
