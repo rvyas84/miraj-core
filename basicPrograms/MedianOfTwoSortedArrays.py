@@ -1,9 +1,12 @@
+from typing import List
+
+
 class FindMedian:
 
     def __init__(self):
         pass
 
-    def findMedian(self, l1: list, l2: list) -> float:
+    def findMedian(self, l1: List[int], l2: List[int]) -> float:
         len1 = len(l1)
         len2 = len(l2)
         
