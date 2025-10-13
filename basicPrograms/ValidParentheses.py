@@ -20,7 +20,7 @@ class CheckParentheses:
                     if popped != hashmap[c]:
                         return False
         
-        return True
+        return not stk
     
 par = CheckParentheses()
 print(par.isValidParentheses("[[]{{}}]"))
