@@ -13,13 +13,11 @@ class CheckParentheses:
         for c in s:
             if c not in hashmap:
                 stk.append(c)
-                print(stk)
             else:
                 if not stk:
                     return False
                 else:
                     popped = stk.pop()
-                    print(f"After pop {stk}")
                     if popped != hashmap[c]:
                         return False
         
