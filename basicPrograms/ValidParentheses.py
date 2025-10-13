@@ -7,6 +7,9 @@ class CheckParentheses:
         hashmap = {")":"(", "]":"[", "}":"{"}
         stk = []
 
+        if len(s) % 2 != 0:
+            return False
+
         for c in s:
             if c not in hashmap:
                 stk.append(c)
@@ -23,4 +26,5 @@ class CheckParentheses:
         return not stk
     
 par = CheckParentheses()
-print(par.isValidParentheses("[[]{{}}]"))
+print(par.isValidParentheses("[[]{{}}]")) # Return True
+print(par.isValidParentheses("[[]{{}}")) # Return False
