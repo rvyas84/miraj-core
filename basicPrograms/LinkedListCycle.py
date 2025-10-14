@@ -1,3 +1,6 @@
+from typing import Optional
+
+
 class LLCycle:
 
     def __init__(self):
