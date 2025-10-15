@@ -6,7 +6,7 @@ class FindMedian:
     def __init__(self):
         pass
 
-    def findMedian(self, l1: List[int], l2: List[int]) -> float:
+    def findMedian(self, l1: List[int], l2: List[int]) -> float: # type: ignore
         len1 = len(l1)
         len2 = len(l2)
         
