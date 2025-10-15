@@ -1,4 +1,12 @@
 class ReverseString:
+    """
+    A class to reverse a given string.
+
+    Methods
+    -------
+    stringReversal(strValue: str) -> str
+        Returns the reversed version of the input string.
+    """
 
     def __init__(self):
         pass

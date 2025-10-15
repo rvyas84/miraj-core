@@ -1,7 +1,19 @@
 class calculatePower:
+    """
+    A class to calculate the power of a number.
+
+    Methods
+    -------
+    calPower(baseNum, exponentNum):
+        Calculates the result of baseNum raised to the power of exponentNum.
+    """
 
     def calPower(self, baseNum, exponentNum):
         result = 1
+
+        if exponentNum < 0:
+            baseNum = 1 / baseNum
+            exponentNum = -exponentNum
 
         for i in range(exponentNum):
             result = result * baseNum

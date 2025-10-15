@@ -1,3 +1,16 @@
+"""
+This script demonstrates various string operations in Python.
+
+1. Initializes a test string and prints it.
+2. Shows different ways to format and print the string.
+3. Extracts and prints a substring from the string.
+4. Reverses the string and prints it.
+5. Accesses and prints a specific character from the string.
+6. Converts the string to a list, inserts a character, and prints the modified list.
+7. Prints a specific character from the original string.
+8. Prints a substring using negative indexing.
+9. Counts and prints the occurrences of a substring within a string starting from a specific index.
+"""
 testString = "Hello World"
 print("Test String Value: ", testString)
 

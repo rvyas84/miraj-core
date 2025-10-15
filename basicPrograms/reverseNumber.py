@@ -1,4 +1,12 @@
 class ReverseNumber:
+    """
+    A class to reverse a given integer number.
+
+    Methods
+    -------
+    revNumber(number: int) -> int:
+        Reverses the digits of the given integer number and returns the reversed number.
+    """
     
     def __init__(self):
         pass

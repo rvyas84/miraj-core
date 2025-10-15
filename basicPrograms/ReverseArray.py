@@ -1,10 +1,17 @@
 class ReverseArray:
+    """
+    A class to reverse an array in place.
+
+    Methods
+    -------
+    reverseArray(ary, start, end):
+        Reverses the elements of the array 'ary' from index 'start' to 'end'.
+    """
 
     def __init__(self):
         pass
 
     def reverseArray(self, ary, start, end):
-
         if start >= end:
             return
         

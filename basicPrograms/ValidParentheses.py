@@ -1,4 +1,12 @@
 class CheckParentheses:
+    """
+    A class to check the validity of parentheses in a given string.
+
+    Methods
+    -------
+    isValidParentheses(s: str) -> bool:
+        Checks if the input string has valid parentheses.
+    """
 
     def __init__(self):
         pass

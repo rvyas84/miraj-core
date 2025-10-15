@@ -1,6 +1,16 @@
 import math
 
 class CalculateFactorial:
+    """
+    A class to calculate the factorial of a non-negative integer.
+
+    Methods
+    -------
+    calculateFactorial(n: int) -> int:
+        Returns the factorial of the given non-negative integer n.
+        If n is negative, it prints a message indicating that factorial 
+        is not defined for negative numbers.
+    """
 
     def __init__(self):
         pass

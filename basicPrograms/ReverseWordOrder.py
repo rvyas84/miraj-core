@@ -1,4 +1,12 @@
 class ReverseWordOrder:
+    """
+    A class to reverse the order of words in a given string.
+
+    Methods
+    -------
+    reverseWordOrders(s: str) -> str:
+        Reverses the order of words in the input string.
+    """
 
     def __init__(self):
         pass

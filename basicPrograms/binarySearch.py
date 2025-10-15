@@ -1,5 +1,24 @@
 class binarySearchApp:
+    """
+    A class to represent a binary search application.
 
+    Attributes
+    ----------
+    values : list
+        A list to store integer values for searching.
+
+    Methods
+    -------
+    createList(requiredElements):
+        Prompts the user to enter integer values and stores them in the values list.
+
+    getList():
+        Returns the list of stored values.
+
+    runBinarySearch(searchValue):
+        Performs a binary search on the values list to find the specified searchValue.
+    """
+    
     def __init__(self):
         self.values = []
     

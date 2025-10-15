@@ -1,12 +1,19 @@
 from typing import List
 
 class CheckSudoku:
+    """
+    A class to check the validity of a Sudoku board.
+
+    Methods
+    -------
+    isValidSudoku(board: List[List[str]]) -> bool:
+        Checks if the given Sudoku board is valid according to Sudoku rules.
+    """
 
     def __init__(self):
         pass
 
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        
         # Row Validation
         for i in range(9):
             s = set()
@@ -17,7 +24,7 @@ class CheckSudoku:
                 elif item != '.':
                     s.add(item)
         
-        #Column Validation
+        # Column Validation
         for i in range(9):
             s = set()
             for j in range(9):
@@ -35,7 +42,7 @@ class CheckSudoku:
         for i, j in start:
             s = set()
             for row in range(i, i + 3):
-                for col in range (j, j + 3):
+                for col in range(j, j + 3):
                     item = board[row][col]
                     if item in s:
                         return False

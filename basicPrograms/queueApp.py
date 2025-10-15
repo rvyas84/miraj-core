@@ -1,5 +1,30 @@
 class QueueApp:
+    """
+    A class to represent a simple queue application.
 
+    Attributes:
+    ----------
+    values : list
+        A list to store the elements of the queue.
+
+    Methods:
+    -------
+    createQueue(elem):
+        Initializes the queue with a specified number of elements.
+    
+    appendQueue(num):
+        Adds an element to the end of the queue.
+    
+    removeFromQueue():
+        Removes and returns the front element of the queue.
+    
+    isEmpty():
+        Checks if the queue is empty.
+    
+    getQueue():
+        Returns the current elements in the queue.
+    """
+    
     def __init__(self):
         self.values = []
 
@@ -7,7 +32,6 @@ class QueueApp:
         val = 0
 
         for i in range(elem):
-
             val = input("Enter the Number: ")
             self.values.append(val)
         

@@ -1,10 +1,17 @@
 class TwoSum:
+    """
+    A class to find two indices of numbers in a list that add up to a specific target.
+
+    Methods
+    -------
+    twoSum(values: List[int], target: int) -> List[int]:
+        Returns the indices of the two numbers such that they add up to the target.
+    """
 
     def __init__(self):
         pass
     
     def twoSum(self, values, target):
-
         complement = 0
         result = {}
 

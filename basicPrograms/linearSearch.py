@@ -1,5 +1,21 @@
 class LinerSaerch:
+    """
+    A class to represent a linear search algorithm.
 
+    Attributes
+    ----------
+    values : list
+        A list to store the elements for searching.
+
+    Methods
+    -------
+    createStack(totalElements):
+        Prompts the user to input values and stores them in the values list.
+
+    searchVal(searchTerm):
+        Searches for the specified term in the values list and prints the result.
+    """
+    
     def __init__(self):
         self.values = []
     

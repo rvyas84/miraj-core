@@ -1,3 +1,16 @@
+"""
+This script demonstrates various operations on dictionaries in Python.
+It covers the following functionalities:
+
+1. Creating dictionaries using curly braces and the dict() function.
+2. Accessing dictionary items using square brackets and the get() method.
+3. Modifying dictionary items by adding and updating key-value pairs.
+4. Removing items from a dictionary using the del statement and the pop() method.
+5. Iterating through dictionaries to access keys, values, and key-value pairs.
+
+Example usage:
+- Create a user data dictionary and manipulate it.
+"""
 # Create Dictionary Using Curly Braces
 
 userData = {

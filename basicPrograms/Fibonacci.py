@@ -1,4 +1,17 @@
 class PrintFibonacci:
+    """
+    A class to represent a Fibonacci number generator.
+
+    Methods
+    -------
+    printFibo(n: int) -> int:
+        Returns the nth Fibonacci number.
+
+    Raises
+    ------
+    ValueError:
+        If n is less than 0.
+    """
     def __init__(self):
         pass
     

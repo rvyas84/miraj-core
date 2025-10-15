@@ -1,16 +1,33 @@
 class stackApp:
+    """
+    A class to represent a stack data structure.
+
+    Attributes
+    ----------
+    values : list
+        A list to store the elements of the stack.
+
+    Methods
+    -------
+    createStack(totalElements):
+        Prompts the user to enter values to create the stack.
+    
+    getTop():
+        Returns the top element of the stack without removing it.
+    
+    isEmpty():
+        Checks if the stack is empty.
+    
+    remove():
+        Removes and returns the top element of the stack.
+    """
     
     def __init__(self):
         self.values = []
     
     def createStack(self, totalElements):
-
         for i in range(totalElements):
             val = input("Enter value {}: ".format(i+1))
-            # Using Mannual Appeding Op
-            # self.values = self.values + [val]
-
-            #Using Append Function
             self.values.append(val)
     
     def getTop(self):

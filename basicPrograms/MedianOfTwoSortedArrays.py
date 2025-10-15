@@ -2,6 +2,14 @@ from typing import List
 
 
 class FindMedian:
+    """
+    A class to find the median of two sorted arrays.
+
+    Methods
+    -------
+    findMedian(l1: List[int], l2: List[int]) -> float:
+        Returns the median of two sorted arrays l1 and l2.
+    """
 
     def __init__(self):
         pass
@@ -10,7 +18,6 @@ class FindMedian:
         len1 = len(l1)
         len2 = len(l2)
         
-
         if len1 > len2:
             return self.findMedian(l2, l1)
 
@@ -18,9 +25,7 @@ class FindMedian:
         end = len1
 
         while start <= end:
-            
             midL1 = (start + end) // 2
-
             midL2 = ((len1 + len2 + 1) // 2) - midL1
 
             maxLeftL1 = float('-inf') if midL1 == 0 else l1[midL1 - 1]
