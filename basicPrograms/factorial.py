@@ -37,7 +37,7 @@ print(math.factorial(-5))
 print("The factorial of 5.6 is : ", end="")
 
 # raises exception
-print(math.factorial(5.6))
+print(math.factorial(5))
 
 # The factorial of 5.6 is : Traceback (most recent call last):
 #   File "/Users/rajanvyas/miraj-core/basicPrograms/factorial.py", line 40, in <module>

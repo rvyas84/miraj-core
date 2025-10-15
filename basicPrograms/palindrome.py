@@ -1,7 +1,7 @@
 class Palindrome:
 
-    def isPalindrome(text):
+    def isPalindrome(self, text):
         return text == text[::-1]
 
-pal = Palindrome
+pal = Palindrome()
 print(pal.isPalindrome("madam"))

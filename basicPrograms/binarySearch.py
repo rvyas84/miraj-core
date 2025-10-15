@@ -25,7 +25,7 @@ class binarySearchApp:
                 break
             elif searchValue > self.values[middle]:
                 start = middle + 1
-            elif searchValue < self.value[middle]:
+            elif searchValue < self.values[middle]:
                 end = middle -1
             
             middle = int((start + end) / 2)
