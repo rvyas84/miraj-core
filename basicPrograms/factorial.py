@@ -38,7 +38,7 @@ print(math.factorial(-5))
 # 120
 # 120
 # The factorial of -5 is Traceback (most recent call last):
-#   File "/Users/rajanvyas/miraj-core/basicPrograms/factorial.py", line 26, in <module>
+#   File "/Users/{usename}/miraj-core/basicPrograms/factorial.py", line 26, in <module>
 #     print(math.factorial(-5))
 #           ~~~~~~~~~~~~~~^^^^
 # ValueError: factorial() not defined for negative values
@@ -50,7 +50,7 @@ print("The factorial of 5.6 is : ", end="")
 print(math.factorial(5))
 
 # The factorial of 5.6 is : Traceback (most recent call last):
-#   File "/Users/rajanvyas/miraj-core/basicPrograms/factorial.py", line 40, in <module>
+#   File "/Users/{username}/miraj-core/basicPrograms/factorial.py", line 40, in <module>
 #     print(math.factorial(5.6))
 #           ~~~~~~~~~~~~~~^^^^^
 # TypeError: 'float' object cannot be interpreted as an integer
