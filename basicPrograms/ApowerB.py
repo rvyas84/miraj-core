@@ -17,8 +17,13 @@ class calculatePower:
 
         for i in range(exponentNum):
             result = result * baseNum
-        
-        return result
+
+        if result > 2**31:
+            return 2**31
+        elif result < -2**31:
+            return -2**31
+        else:
+            return result
 
 cal = calculatePower()
 print(cal.calPower(2,3))
