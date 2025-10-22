@@ -46,3 +46,7 @@ class FindMedian:
 
 median = FindMedian()
 print(median.findMedian([1,2,3,4,5,6,7],[8,9,10]))
+
+# Output
+
+# 5.5
