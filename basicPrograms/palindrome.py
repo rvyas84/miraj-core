@@ -11,3 +11,12 @@ class Palindrome:
 
 pal = Palindrome()
 print(pal.isPalindrome("madam"))
+
+def pali(testData):
+    lenData = len(testData)
+    for i in range(lenData // 2):
+        if testData[i] != testData[lenData - i - 1]:
+            return False
+    return True
+        
+print(f"Pali Test 1 - {'racecar'} : {pali('racecar')}")  # True
