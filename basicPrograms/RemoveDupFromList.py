@@ -16,3 +16,6 @@ class RemoveDupFromList:
     
 removeDup = RemoveDupFromList()
 removeDup.removeDupFromList([9,1,3,2,4,6,6,5,3,4,5,7,6,5,3,2,7,8,8,1])
+
+# Output
+# {1, 2, 3, 4, 5, 6, 7, 8, 9}
