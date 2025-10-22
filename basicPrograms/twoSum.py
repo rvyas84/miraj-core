@@ -33,3 +33,7 @@ class TwoSum:
 
 fn = TwoSum()
 print(fn.twoSum([1,7,3,4,5,6,7,8,9,10], 12))
+
+# Output
+
+# [4, 1]
