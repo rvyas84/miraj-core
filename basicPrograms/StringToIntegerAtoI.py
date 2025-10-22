@@ -52,3 +52,10 @@ StoI = StringToIntegerAtoI()
 print(StoI.StringToIntegerAtoI("1234 San Franciscos"))
 print(StoI.StringToIntegerAtoI("-1234 San Jose"))
 print(StoI.StringToIntegerAtoI("San Jose 2345"))
+
+
+# output
+
+# 1234
+# -1234
+# 0
