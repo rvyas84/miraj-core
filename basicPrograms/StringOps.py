@@ -34,5 +34,8 @@ print(testString[6])
 print(testString[-8:])
 
 st = "Hello Hello Hello He"
+st1 = "Test"
+
+print("Reverse Of St1: ", "".join(reversed(st1)))
 
 print("Occurrences of \"He\" in -- {} -- is: {}".format(st, st.count("He", 7)))
