@@ -1,4 +1,5 @@
 import csv
+import json
 
 with open('test.txt', 'r') as file: # Make sure 'test.txt' exists in the same directory
     content = file.read()
@@ -21,3 +22,14 @@ with open('data.csv', 'r') as csvfile:
     csvreader = csv.reader(csvfile)
     for row in csvreader:
         print(row)
+
+with open("test.json", "w") as file:
+    data = {
+        "title": "Python File Handling",
+        "total_char": len("Python File Handling")
+    }
+    json.dump(data, file)
+
+with open("test.json", "r") as file:
+    data = json.load(file)
+    print(data)
