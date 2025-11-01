@@ -8,7 +8,7 @@ with open('output.txt', 'w') as file: # This will create a new file or overwrite
     file.write('This is a test output.\n')
     file.write('Writing to files in Python is easy!\n')
 
-with open('output.txt', 'a', newline='') as file:
+with open('output.txt', 'a', newline='') as file: # Appending to the existing file
     file.write('Appending a new line to the existing file.\n')
 
 with open('data.csv', mode = 'w', newline='') as csvfile: # This will create a new CSV file
