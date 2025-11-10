@@ -1,4 +1,4 @@
-class LinerSaerch:
+class LinerSearch:
     """
     A class to represent a linear search algorithm.
 
