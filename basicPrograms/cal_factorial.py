@@ -27,7 +27,7 @@ class CalculateFactorial:
 calc = CalculateFactorial()
 print(calc.calculateFactorial(5))
 
-# Using Math Factorial Function 
+# Using Math Factorial Function
 print(math.factorial(5))
 
 print("The factorial of -5 is ", end = "")
