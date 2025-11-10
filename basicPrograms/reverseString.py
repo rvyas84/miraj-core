@@ -13,8 +13,9 @@ class ReverseString:
 
     def stringReversal(self, strValue):
         return strValue[::-1]
-    
-revStr = ReverseString()
-print("Reversed String {} {} {}".format(revStr.stringReversal("rajan"), revStr.stringReversal("rajan"), revStr.stringReversal("rajan")))
-print(f"Reversed String {revStr.stringReversal("rajan")} {revStr.stringReversal("rajan")}")
-print("Reversed String", revStr.stringReversal("rajan"), revStr.stringReversal("rajan"))
+
+if __name__ == "__main__":    
+    revStr = ReverseString()
+    print("Reversed String {} {} {}".format(revStr.stringReversal("rajan"), revStr.stringReversal("rajan"), revStr.stringReversal("rajan")))
+    print(f"Reversed String {revStr.stringReversal("rajan")} {revStr.stringReversal("rajan")}")
+    print("Reversed String", revStr.stringReversal("rajan"), revStr.stringReversal("rajan"))

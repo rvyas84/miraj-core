@@ -25,10 +25,12 @@ class PrintFibonacci:
         else:
             return self.printFibo(n - 1) + self.printFibo(n - 2)
 
-fibo = PrintFibonacci()
-for i in range(10):
-    print(fibo.printFibo(i), end=" ")
 
-    # Output
+if __name__ == "__main__":
+    fibo = PrintFibonacci()
+    for i in range(10):
+        print(fibo.printFibo(i), end=" ")
 
-    # 0 1 1 2 3 5 8 13 21 34
+        # Output
+
+        # 0 1 1 2 3 5 8 13 21 34

@@ -48,14 +48,15 @@ class StringToIntegerAtoI:
         
         return result
 
-StoI = StringToIntegerAtoI()
-print(StoI.StringToIntegerAtoI("1234 San Franciscos"))
-print(StoI.StringToIntegerAtoI("-1234 San Jose"))
-print(StoI.StringToIntegerAtoI("San Jose 2345"))
+if __name__ == "__main__":
+    StoI = StringToIntegerAtoI()
+    print(StoI.StringToIntegerAtoI("1234 San Franciscos"))
+    print(StoI.StringToIntegerAtoI("-1234 San Jose"))
+    print(StoI.StringToIntegerAtoI("San Jose 2345"))
 
 
-# output
+    # output
 
-# 1234
-# -1234
-# 0
+    # 1234
+    # -1234
+    # 0

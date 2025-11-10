@@ -24,9 +24,10 @@ class countOcurrence:
                 count += 1
 
         return count
-    
-totalCount = countOcurrence([1,2,2,2,2,2,3,4,5,6])
-print(totalCount.countOccurrenceOfNumber())
 
-# Using Python Inbuilt Function
-print([1,2,2,2,2,2,3,4,5,6].count(2))
+if __name__ == "__main__":    
+    totalCount = countOcurrence([1,2,2,2,2,2,3,4,5,6])
+    print(totalCount.countOccurrenceOfNumber())
+
+    # Using Python Inbuilt Function
+    print([1,2,2,2,2,2,3,4,5,6].count(2))

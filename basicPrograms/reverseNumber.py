@@ -19,8 +19,9 @@ class ReverseNumber:
         
         return result
 
-revNum = ReverseNumber()
-print("Reversed number: ", revNum.revNumber(12345))
-print(f"Reversed Number: {revNum.revNumber(12345)}")
-print("Reversed number: {} ".format(revNum.revNumber(12345)))
-    
+if __name__ == "__main__":
+    revNum = ReverseNumber()
+    print("Reversed number: ", revNum.revNumber(12345))
+    print(f"Reversed Number: {revNum.revNumber(12345)}")
+    print("Reversed number: {} ".format(revNum.revNumber(12345)))
+        

@@ -25,9 +25,10 @@ class calculatePower:
         else:
             return result
 
-cal = calculatePower()
-print(cal.calPower(2,3))
+if __name__ == "__main__":
+    cal = calculatePower()
+    print(cal.calPower(2,3))
 
-# Quick Way To Calculate ApowerB
-print(2**3)
-print(2**-3)
+    # Quick Way To Calculate ApowerB
+    print(2**3)
+    print(2**-3)

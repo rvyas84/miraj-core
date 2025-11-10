@@ -37,5 +37,6 @@ class Solution:
         
         return max_length
 
-sol = Solution()
-print(sol.lengthOfLongestSubstring("abcdefabcbb"))
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.lengthOfLongestSubstring("abcdefabcbb"))

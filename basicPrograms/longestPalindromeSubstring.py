@@ -39,6 +39,7 @@ class FindLongestPalindromeSubString:
             bottom += 1
         
         return bottom - top - 1
-    
-pali = FindLongestPalindromeSubString()
-print(pali.findSubStringPalindrome("racecar"))
+
+if __name__ == "__main__":    
+    pali = FindLongestPalindromeSubString()
+    print(pali.findSubStringPalindrome("racecar"))

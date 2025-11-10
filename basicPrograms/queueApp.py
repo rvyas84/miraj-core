@@ -50,9 +50,10 @@ class QueueApp:
     def getQueue(self):
         return self.values
 
-q1 = QueueApp()
-q1.createQueue(5)
-q1.appendQueue(20)
-print(q1.getQueue())
-print(q1.removeFromQueue())
-print(q1.getQueue())
+if __name__ == "__main__":
+    q1 = QueueApp()
+    q1.createQueue(5)
+    q1.appendQueue(20)
+    print(q1.getQueue())
+    print(q1.removeFromQueue())
+    print(q1.getQueue())

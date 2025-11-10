@@ -16,6 +16,7 @@ class ReverseWordOrder:
         reversed_words = words[::-1]
         return " ".join(reversed_words)
 
-revOrder = ReverseWordOrder()
-input_string = "Hello Words From Python"
-print(revOrder.reverseWordOrders(input_string))
+if __name__ == "__main__":
+    revOrder = ReverseWordOrder()
+    input_string = "Hello Words From Python"
+    print(revOrder.reverseWordOrders(input_string))

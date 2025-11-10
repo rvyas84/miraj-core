@@ -39,10 +39,11 @@ class stackApp:
     def remove(self):
         return self.values.pop(-1)
 
-st = stackApp()
-st.createStack(5)
-print(st.getTop())
-print(st.remove())
-print(st.remove())
-print(st.getTop())
-print(st.isEmpty())
+if __name__ == "__main__":
+    st = stackApp()
+    st.createStack(5)
+    print(st.getTop())
+    print(st.remove())
+    print(st.remove())
+    print(st.getTop())
+    print(st.isEmpty())

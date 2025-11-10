@@ -53,9 +53,9 @@ class binarySearchApp:
                 print("Search value {} is not found".format(searchValue))
 
             
-
-bs = binarySearchApp()
-bs.createList(5) # 1, 2, 3, 4 ,5
-print(bs.getList())
-bs.runBinarySearch(8)
-bs.runBinarySearch(3)
+if __name__ == "__main__":
+    bs = binarySearchApp()
+    bs.createList(5) # 1, 2, 3, 4 ,5
+    print(bs.getList())
+    bs.runBinarySearch(8)
+    bs.runBinarySearch(3)

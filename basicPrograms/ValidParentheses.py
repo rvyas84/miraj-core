@@ -30,7 +30,8 @@ class CheckParentheses:
                         return False
         
         return not stk
-    
-par = CheckParentheses()
-print(par.isValidParentheses("[[]{{}}]")) # Return True
-print(par.isValidParentheses("[[]{{}}")) # Return False
+
+if __name__ == "__main__":    
+    par = CheckParentheses()
+    print(par.isValidParentheses("[[]{{}}]")) # Return True
+    print(par.isValidParentheses("[[]{{}}")) # Return False

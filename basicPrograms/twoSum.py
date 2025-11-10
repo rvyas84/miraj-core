@@ -31,9 +31,11 @@ class TwoSum:
 
             return ["No Value", "No Value"]
 
-fn = TwoSum()
-print(fn.twoSum([1,7,3,4,5,6,7,8,9,10], 12))
+if __name__ == "__main__":
 
-# Output
+    fn = TwoSum()
+    print(fn.twoSum([1,7,3,4,5,6,7,8,9,10], 12))
 
-# [4, 1]
+    # Output
+
+    # [4, 1]

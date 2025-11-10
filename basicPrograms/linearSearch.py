@@ -38,7 +38,9 @@ class LinerSaerch:
             if count == len(self.values):
                 print("Search Term {} Is Not Found".format(searchTerm))
 
-ls = LinerSaerch()
-ls.createStack(5) # 10, 20, 30, 40, 50
-ls.searchVal(40)
-ls.searchVal(80)
+
+if __name__ == "__main__":
+    ls = LinerSaerch()
+    ls.createStack(5) # 10, 20, 30, 40, 50
+    ls.searchVal(40)
+    ls.searchVal(80)
