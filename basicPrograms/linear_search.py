@@ -40,7 +40,7 @@ class LinerSearch:
 
 
 if __name__ == "__main__":
-    ls = LinerSaerch()
+    ls = LinerSearch()
     ls.createStack(5) # 10, 20, 30, 40, 50
     ls.searchVal(40)
     ls.searchVal(80)
