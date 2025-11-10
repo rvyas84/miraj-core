@@ -11,6 +11,9 @@ class calculatePower:
     def calPower(self, baseNum, exponentNum):
         result = 1
 
+        if baseNum < 0:
+            raise ValueError("Base cannot be negative")
+
         if exponentNum < 0:
             baseNum = 1 / baseNum
             exponentNum = -exponentNum
