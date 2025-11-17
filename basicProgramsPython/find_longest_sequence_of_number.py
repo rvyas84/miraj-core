@@ -19,3 +19,5 @@ class LongestSequence:
 if __name__ == "__main__":
     longestSeq = LongestSequence()
     print(longestSeq.findLongestSequence([100,4,200,1,3,2,201,202,203,204,205]))
+
+# Output: 6 (longest sequence count: 200,201,202,203,204,205)
