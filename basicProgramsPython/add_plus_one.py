@@ -13,7 +13,7 @@ class PlusOne:
             # else replce digit with 0
             digits[last_digit] = 0
         
-        # [1] is a list containing a single element → 1
+        # [1] is a list containing a single element → 9
         return [1] + digits
 
 if __name__ == '__main__':
