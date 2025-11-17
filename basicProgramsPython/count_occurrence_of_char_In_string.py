@@ -11,3 +11,5 @@ class CountChars:
 if __name__ == "__main__":
     countChars = CountChars()
     print(countChars.getCharCount('ThisisatestString'))
+
+    # Output: {'T': 1, 'h': 1, 'i': 3, 's': 3, 'a': 1, 't': 3, 'e': 1, 'S': 1, 'r': 1, 'n': 1, 'g': 1}
