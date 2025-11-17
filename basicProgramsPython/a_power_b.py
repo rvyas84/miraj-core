@@ -1,4 +1,4 @@
-class calculatePower:
+class CalculatePower:
     """
     A class to calculate the power of a number.
 
@@ -29,7 +29,7 @@ class calculatePower:
             return result
 
 if __name__ == "__main__":
-    cal = calculatePower()
+    cal = CalculatePower()
     print(cal.calPower(2,3))
 
     # Quick Way To Calculate ApowerB
