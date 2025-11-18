@@ -30,8 +30,29 @@ class CheckParentheses:
                         return False
         
         return not stk
+    
+    def isValidPara(self, input: str) -> bool:
+        if len(input) % 2 != 0:
+            return False
+
+        st = []
+
+        for ch in input:
+            if ch == '(' or ch == '{' or ch == '[':
+                st.append(ch)
+            elif (ch == ')' and st[-1] == '(' and st):
+                st.pop()
+            elif (ch == '}' and st[-1] == '{' and st):
+                st.pop()
+            elif (ch == ']' and st[-1] == '[' and st):
+                st.pop()
+            
+        return len(st) == 0
+
+
 
 if __name__ == "__main__":    
     par = CheckParentheses()
     print(par.isValidParentheses("[[]{{}}]")) # Return True
     print(par.isValidParentheses("[[]{{}}")) # Return False
+    print(par.isValidPara("[[]{{}}]"))
