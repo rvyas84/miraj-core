@@ -15,7 +15,7 @@ class FindLongestPalindromeSubString:
         top = 0
         bottom = 0
 
-        if s == "" or len(s) < 1:
+        if not s:
             return ""
         
         for c in range(len(s)):
@@ -25,21 +25,23 @@ class FindLongestPalindromeSubString:
             resultLen = max(len1, len2)
 
             if resultLen > (bottom - top):
-                top = int(c - (resultLen - 1)/2)
-                bottom = int(c + (resultLen)/2)
+                top = (c - (resultLen - 1)//2)
+                bottom = (c + (resultLen)//2)
 
         return s[top : bottom + 1]    
 
     def expandFromMiddle(self, s, top, bottom):
-        if (s == "" or bottom > top):
+        if (not s or bottom < top):
             return 0
 
         while (top >= 0 and bottom < len(s) and s[top] == s[bottom]):
             top -= 1
             bottom += 1
         
-        return bottom - top - 1
+        return (bottom - top - 1)
 
 if __name__ == "__main__":    
     pali = FindLongestPalindromeSubString()
-    print(pali.findSubStringPalindrome("racecar"))
+    print(pali.findSubStringPalindrome("abbc")) # Output: bb
+    print(pali.findSubStringPalindrome("racecar")) # Output: racecar
+    print(pali.findSubStringPalindrome("")) # Output: ""
