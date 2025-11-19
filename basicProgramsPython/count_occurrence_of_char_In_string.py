@@ -2,10 +2,7 @@ class CountChars:
     def getCharCount(self, input_string: str) -> dict:
         result_dic = {}
         for char in input_string:
-            if char not in result_dic:
-                result_dic[char] = 1
-            else:
-                result_dic[char] += 1
+            result_dic[char] = result_dic.get(char, 0) + 1
         return result_dic
 
 if __name__ == "__main__":
