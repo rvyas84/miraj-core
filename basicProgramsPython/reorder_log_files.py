@@ -1,3 +1,5 @@
+from typing import List
+
 class ReorderLogFiles:
     """
     A class to reorder log files.
@@ -9,7 +11,7 @@ class ReorderLogFiles:
         Letter-logs are sorted lexicographically by their contents, and in case of ties,
         by their identifiers. Digit-logs maintain their original order.
     """
-    def reorderLogFiles(self, logs):
+    def reorderLogFiles(self, logs: List[str]):
         letter_logs = []
         digit_logs = []
 
