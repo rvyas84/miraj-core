@@ -4,7 +4,6 @@ from typing import List
 class LongestCommonPrefix:
     def longestCommonPrefix(self, input: List[str]) -> str:
 
-        l = len(input)
         min_length = float('inf')
 
         for s in input:
