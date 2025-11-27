@@ -36,4 +36,6 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
-    print(sol.lengthOfLongestSubstring("abcdefabcbb")) # Output: 6
+    print(sol.lengthOfLongestSubstring("abcdefabcbb"))
+
+# Output: 6

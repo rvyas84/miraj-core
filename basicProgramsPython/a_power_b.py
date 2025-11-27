@@ -30,8 +30,9 @@ class CalculatePower:
 
 if __name__ == "__main__":
     cal = CalculatePower()
-    print(cal.calPower(2,3))
+    print(cal.calPower(2,3)) # 8
 
     # Quick Way To Calculate ApowerB
-    print(2**3)
-    print(2**-3)
+
+    print(2**3) # 8
+    print(2**-3) # 0.125

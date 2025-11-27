@@ -18,7 +18,7 @@ class IsAnagram:
 
 if __name__ == "__main__":
     isAna = IsAnagram()
-    print(isAna.checkAnagram("Cat","Acd"))
-    print(isAna.checkAnagram("Cat","ACT"))
-    print(isAna.checkAnagram("Rat","ART"))
-    print(isAna.checkAnagram("Rat","ART   "))
+    print(isAna.checkAnagram("Cat","Acd")) # False
+    print(isAna.checkAnagram("Cat","ACT")) # True
+    print(isAna.checkAnagram("Rat","ART")) #True
+    print(isAna.checkAnagram("Rat","ART   ")) # True

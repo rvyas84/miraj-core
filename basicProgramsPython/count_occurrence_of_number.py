@@ -27,7 +27,7 @@ class countOcurrence:
 
 if __name__ == "__main__":    
     totalCount = countOcurrence([1,2,2,2,2,2,3,4,5,6])
-    print(totalCount.countOccurrenceOfNumber())
+    print(totalCount.countOccurrenceOfNumber()) # 5
 
     # Using Python Inbuilt Function
-    print([1,2,2,2,2,2,3,4,5,6].count(2))
+    print([1,2,2,2,2,2,3,4,5,6].count(2)) # 5

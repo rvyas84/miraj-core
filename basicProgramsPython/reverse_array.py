@@ -23,3 +23,5 @@ if __name__ == "__main__":
     arrayValues = [11,12,13,14,15,16]
     revArray.reverseArray(arrayValues, 0, len(arrayValues)-1)
     print(arrayValues)
+
+#Output: [16, 15, 14, 13, 12, 11]

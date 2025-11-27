@@ -29,5 +29,5 @@ class IsAnagram:
     
 if __name__ == "__main__":
     isAna = IsAnagram()
-    print(isAna.isAnagram("Life","File"))
-    print(isAna.isAnagram("Life","Filf   "))
+    print(isAna.isAnagram("Life","File")) # True
+    print(isAna.isAnagram("Life","Filf   ")) # False

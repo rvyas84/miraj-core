@@ -20,3 +20,4 @@ if __name__ == "__main__":
     productArray = ProductArrayExceptSelf()
     print(productArray.productArray([2,3,4,5,6]))
 
+#Output: [360, 240, 180, 144, 120]
