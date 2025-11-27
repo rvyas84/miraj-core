@@ -19,6 +19,5 @@ class FindClosestNumber:
 
 if __name__ == "__main__":
     findClosestNum = FindClosestNumber()
-    print(findClosestNum.findClosestNumber([-20,-10,3,-3,4,5,10]))
-
-    # Output: 3
+    print(findClosestNum.findClosestNumber([-20,-10,3,-3,4,5,10])) # Output: 3
+    print(findClosestNum.findClosestNumber([-20,-10,-3,4,5,10])) # Output: -3
